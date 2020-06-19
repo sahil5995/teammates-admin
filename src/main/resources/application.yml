@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: teammates-admin
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:mem:teamadmindb
+    username: sa
+    password:
+
+github:
+  repoBaseUrl: https://api.github.com/users/
+  authToken: MmJjZWNjNGQwMzYwOWQ2ZThmMDRkNTA1ZGIyMWUzYzM5Y2FiNDE4YQ==
+
